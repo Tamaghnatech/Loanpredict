@@ -71,7 +71,7 @@ Contribute
 Contributions are always welcome! Please read the contribution guidelines first.
 
 Credits
-Thanks to Kaggle for providing the Allstate dataset which made this project possible. Special thanks to all open-source communities and contributors who developed the libraries and tools used in this project.
+Thanks to Kaggle for providing the Loan dataset which made this project possible. Special thanks to all open-source communities and contributors who developed the libraries and tools used in this project.
 
 License
 This project is licensed under the MIT License. See LICENSE.md for more details.
