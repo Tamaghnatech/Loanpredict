@@ -53,7 +53,7 @@ import xgboost as xgb
 dtrain = xgb.DMatrix(train_preprocessed, label=y_train)
 bst = xgb.train(params, dtrain, num_boost_round=1000)
 
-Installation
+## Installation
 Install Python 3.7 or above.
 Use pip to install required libraries:
 Copy code
@@ -61,21 +61,22 @@ pip install pandas sklearn xgboost keras matplotlib seaborn
 Tests
 Various tests like feature importance, model evaluation metrics, and residual analysis have been implemented. Each test ensures the model's robustness and accuracy in predicting insurance claim severity.
 
-How to Use?
+## How to Use?
 Clone the repository.
 Install the necessary libraries.
 Load your data, following the structure as provided in train.csv and test.csv.
 Run the preprocessing and model scripts.
 Evaluate and visualize the results using the provided visualization scripts.
-Contribute
+
+## Contribute
 Contributions are always welcome! Please read the contribution guidelines first.
 
-Credits
+## Credits
 Thanks to Kaggle for providing the Loan dataset which made this project possible. Special thanks to all open-source communities and contributors who developed the libraries and tools used in this project.
 
-License
+## License
 This project is licensed under the MIT License. See LICENSE.md for more details.
 
 
-Project Link: https://github.com/Tamaghnatech/Loanpredict
+## Project Link: https://github.com/Tamaghnatech/Loanpredict
 
