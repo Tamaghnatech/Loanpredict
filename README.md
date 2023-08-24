@@ -1,6 +1,6 @@
 # Predicting Insurance Claims Severity
 
-![Predicting Insurance Claims Severity Logo](path_to_logo.png)
+![Predicting Insurance Claims Severity Logo](logo.jpg)
 
 An end-to-end machine learning project aimed at predicting the severity of insurance claims based on various features provided by the Allstate dataset. The goal is to minimize prediction errors to improve business decisions.
 
@@ -18,7 +18,7 @@ The code adheres to the standard Python PEP 8 style guide.
 
 ## Screenshots
 
-![Visualization of one result](path_to_screenshot.png)
+![Visualization of one result](ss.png)
 
 ## Tech/Framework used
 
