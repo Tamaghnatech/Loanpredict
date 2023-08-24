@@ -34,7 +34,20 @@ The code adheres to the standard Python PEP 8 style guide.
 - Evaluation metrics and residual analysis.
 
 ## Code Examples
+I = (loan.loc[loan["profession"]
+         .isin(["Drafter", "Secretary", "Computer_hardware_engineer", "Analyst", "Official"])]
+         .loc[:, ["income", "profession", "risk_flag"]])
 
+data = I
+title = "Top 5 Profession & Risk Flag"
+x = "profession"
+y = "income"
+hue = "risk_flag"
+xlabel = "Top 5 Profession Income"
+ylabel = "Income"
+
+mtvboxplot(data=data, title=title, x=x, y=y,
+           hue=hue, xlabel=xlabel, ylabel=ylabel);
 
 ## Installation
 Install Python 3.7 or above.
