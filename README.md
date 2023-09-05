@@ -2,6 +2,7 @@
 
 ![Predicting Insurance Claims Severity Logo](logo.jpg)
 
+
 An end-to-end machine learning project aimed at predicting the severity of insurance claims based on various features provided by the Allstate dataset. The goal is to minimize prediction errors to improve business decisions.
 
 ## Motivation
